@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.cirilic{
+    font-family: 'PT Serif', serif;
+    font-size: 16px;
+    align-items: left;
+}
+.number {
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+}
+.arabic {
+    font-family: 'Amiri', serif;
+    font-size: 28px;
+}
+header  {
+    padding: 5px;
+    box-shadow: 0px 0px 2px 0px lightgrey;
+    margin-bottom: 5px;
+    background-color: #ffc107;
+
+}
+#header {
+    text-align: center;
+}
+#header > div{
+    display: inline-block;
+    vertical-align: middle;
+}
+.logo img{
+    height: 80px;
+    width: 80px;
+}
+.logo-text img{
+    height: 40px;
+}
+.card{
+    margin-top: 20px;
+    min-height: 80px;
+    padding-top: 25px;
+    font-size: 23px;
+    box-shadow: 0px 1px 3px 1px  rgba(0,0,0,0.2);
+} 
+.yellow{
+    color: gold;
+}
+.sites-link{
+    text-decoration: none;
+    color: #ccad00;
+    font-weight: bold;
+}
+.sites-link:hover {
+    text-decoration: none;
+    color: #998200;
+}
+
+
+footer {
+    background-color: gold;
+    box-shadow: 1px -1px 2px 0px lightgrey;
+    padding: 10px;
+}
+
+.link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+.play{
+    width: 30%;
+    box-shadow: 1px 1px 5px 1px lightgrey;
+    border-radius: 20px;
+    padding: 10px; 
+}
+.modal-book{
+    border-right: 1px solid grey;
+}
+.text{
+    margin-top: 100px;
+}
